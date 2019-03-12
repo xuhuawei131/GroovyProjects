@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8ca8caf-a56c-4cd8-93a0-83d8f4a82953" name="Default Changelist" comment="" />
+    <list default="true" id="cf26d1af-2ac6-4306-b8c8-68ea696b3285" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datastruct/ListDemo.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroovyDemo08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GroovyDemo08/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/study/ClousersStudy2.groovy">
+        <entry file="file://$PROJECT_DIR$/src/datastruct/ListDemo.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -23,17 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/groovy-2.5.6/lib/groovy-2.5.6.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24156">
-              <caret line="1331" column="30" selection-start-line="1331" selection-start-column="30" selection-end-line="1331" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/groovy-2.5.6/lib/groovy-2.5.6.jar!/org/codehaus/groovy/runtime/callsite/BooleanClosureWrapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="17" column="52" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="86">
+              <caret line="3782" column="30" selection-start-line="3782" selection-start-column="30" selection-end-line="3782" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -46,15 +41,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/study/ClousersStudy2.groovy" />
+        <option value="$PROJECT_DIR$/src/datastruct/ListDemo.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-55" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,16 +58,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="GroovyDemo08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroovyDemo08" type="462c0819:PsiDirectoryNode" />
+              <item name="GroovyDemo10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroovyDemo10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="GroovyDemo08" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroovyDemo08" type="462c0819:PsiDirectoryNode" />
+              <item name="GroovyDemo10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GroovyDemo10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -81,13 +76,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552324101366" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552409268051" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -102,12 +94,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ClousersStudy2" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="GroovyDemo08" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/study/ClousersStudy2.groovy" />
+    <configuration name="ListDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="GroovyDemo10" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/datastruct/ListDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/study" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/datastruct" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,7 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Groovy.ClousersStudy2" />
+        <item itemvalue="Groovy.ListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -124,11 +116,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8ca8caf-a56c-4cd8-93a0-83d8f4a82953" name="Default Changelist" comment="" />
-      <created>1552319385902</created>
+      <changelist id="cf26d1af-2ac6-4306-b8c8-68ea696b3285" name="Default Changelist" comment="" />
+      <created>1552401718508</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552319385902</updated>
+      <updated>1552401718508</updated>
     </task>
     <servers />
   </component>
@@ -136,53 +128,46 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16881259" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.048640914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04398827" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35630497" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/groovy-2.5.6/lib/groovy-2.5.6.jar!/org/codehaus/groovy/runtime/callsite/BooleanClosureWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/groovy-2.5.6/lib/groovy-2.5.6.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24156">
-          <caret line="1331" column="30" selection-start-line="1331" selection-start-column="30" selection-end-line="1331" selection-end-column="30" />
+        <state relative-caret-position="86">
+          <caret line="3782" column="30" selection-start-line="3782" selection-start-column="30" selection-end-line="3782" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/study/ClousersStudy2.groovy">
+    <entry file="file://$PROJECT_DIR$/src/datastruct/ListDemo.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
         </state>
       </provider>
     </entry>
